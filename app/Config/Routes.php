@@ -33,6 +33,9 @@ $routes->get('/', 'Home::index');
 $routes->get('inicio2', 'Home::inicio2');
 $routes->get('roles', 'Roles::roles');
 
+//ruta vista
+$routes->get('vista1', 'Roles::vista1');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -8,4 +8,15 @@ class Roles extends BaseController
     {
         return view('sidebar'); //editado
     }
+
+    public function vista1()
+    {
+        $data = [
+            'title' => 'My Title',
+            'heading'     => 'My Heading',
+            'message'   => 'Hola mundo',
+        ];
+
+        return view('vista1', $data);
+    }
 }
