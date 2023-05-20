@@ -1,23 +1,28 @@
 <!DOCTYPE html>
+<html lang="es">
 <html>
-<title>W3.CSS</title>
+<title>Inicio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 <body>
 
-<!-- Sidebar -->
-<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
- <h3 class="w3-bar-item">Menu de Roles</h3>
- <a href="#" class="w3-bar-item w3-button">Agregar Roles</a>
- <a href="#" class="w3-bar-item w3-button">Modificar Roles</a>
- <a href="#" class="w3-bar-item w3-button">Eliminar Roles</a>
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Menu de Roles &times;</button>
+  <a href="listar" class="w3-bar-item w3-button">Mostrar Roles</a>
+  <a href="insertar" class="w3-bar-item w3-button">Agregar Roles</a>
+  <a href="actualizar" class="w3-bar-item w3-button">Modificar Roles</a>
+  <a href="eliminar" class="w3-bar-item w3-button">Eliminar Roles</a>
 </div>
 
-<!-- Page Content -->
-<div style="margin-left:25%">
-<div class="w3-container w3-teal">
- <h1>Pagina 1</h1>
+<div id="main">
+
+<div class="w3-teal">
+  <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>HOME</h1>
+  </div>
 </div>
 
 <!--carusel de imagenes-->
@@ -48,14 +53,37 @@
   </button>
 </div>
 
-<div class="w3-container">
+<div class="w3-container w3-light-darkgray">
  <h2>Controles</h2>
  <p>Un controlador es simplemente un archivo de clase que maneja una solicitud HTTP.</p>
  <p>Cada controlador que cree debe extender de la clase BaseController.</p>
 </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+<div class="w3-container">
+<p>In this example, the sidebar is hidden (style="display:none")</p>
+<p>It is shown when you click on the menu icon in the top left corner.</p>
+<p>When it is opened, it shifts the page content to the right.</p>
+<p>We use JavaScript to add a 25% left margin to the div element with id="main" when this happens. The value "25%" matches the width of the sidebar.</p>
+</div>
 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+</body>
 </html>

@@ -31,9 +31,22 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('inicio2', 'Home::inicio2');
-$routes->get('roles', 'Roles::roles');
 
-//ruta vista
+
+//CRUD
+//ruta consultar
+$routes->get('consultar', 'Roles::consultar');
+//ruta listar
+$routes->get('listar', 'Roles::listar');
+//ruta insertar
+$routes->get('insertar', 'Roles::insertar');
+//ruta actualizar
+$routes->get('actualizar', 'Roles::actualizar');
+//ruta eliminar
+$routes->get('eliminar', 'Roles::eliminar');
+
+
+//ruta vista1
 $routes->get('vista1', 'Roles::vista1');
 
 /*

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<title>Israel Vasquez</title>
+<title>My Layout</title>
 </head>
 
 <body>

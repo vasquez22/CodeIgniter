@@ -1,0 +1,126 @@
+CRITICAL - 2023-05-20 05:23:33 --> Class "App\Controllers\BaseController" not found
+in APPPATH\Controllers\BaseController.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\app\\app\\Controllers\\BaseController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 4 APPPATH\Controllers\Home.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\app\\app\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\app\\app\\Controllers\\Home.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 9 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+10 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 05:25:17 --> Class "App\Controllers\BaseController" not found
+in APPPATH\Controllers\BaseController.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\app\\app\\Controllers\\BaseController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 4 APPPATH\Controllers\Home.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\app\\app\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\app\\app\\Controllers\\Home.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 9 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+10 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 06:45:21 --> Undefined variable $userModel
+in APPPATH\Controllers\Roles.php on line 41.
+ 1 APPPATH\Controllers\Roles.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\app\\app\\Controllers\\Roles.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Roles->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 06:45:57 --> Undefined variable $userModel
+in APPPATH\Controllers\Roles.php on line 41.
+ 1 APPPATH\Controllers\Roles.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\app\\app\\Controllers\\Roles.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Roles->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 06:45:59 --> Undefined variable $userModel
+in APPPATH\Controllers\Roles.php on line 41.
+ 1 APPPATH\Controllers\Roles.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\app\\app\\Controllers\\Roles.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Roles->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 06:46:02 --> Undefined variable $userModel
+in APPPATH\Controllers\Roles.php on line 41.
+ 1 APPPATH\Controllers\Roles.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\app\\app\\Controllers\\Roles.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Roles->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 06:47:00 --> Undefined variable $userModel
+in APPPATH\Controllers\Roles.php on line 41.
+ 1 APPPATH\Controllers\Roles.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\app\\app\\Controllers\\Roles.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Roles->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 06:47:06 --> Undefined variable $userModel
+in APPPATH\Controllers\Roles.php on line 41.
+ 1 APPPATH\Controllers\Roles.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\app\\app\\Controllers\\Roles.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Roles->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 06:48:39 --> Call to undefined method App\Models\RolModel::insertar
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Roles.php(41): CodeIgniter\Model->__call('insertar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Roles->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 06:48:50 --> Call to undefined method App\Models\RolModel::insertar
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Roles.php(41): CodeIgniter\Model->__call('insertar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Roles->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 06:51:58 --> Call to undefined method App\Models\RolModel::insertar
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Roles.php(41): CodeIgniter\Model->__call('insertar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Roles->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 06:53:09 --> Call to undefined method App\Models\RolModel::insertar
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Roles.php(42): CodeIgniter\Model->__call('insertar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Roles->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 06:53:57 --> Call to undefined method App\Models\RolModel::insertar
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Roles.php(42): CodeIgniter\Model->__call('insertar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Roles->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
+CRITICAL - 2023-05-20 07:06:35 --> Undefined variable $userModel
+in APPPATH\Controllers\Roles.php on line 66.
+ 1 APPPATH\Controllers\Roles.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\app\\app\\Controllers\\Roles.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Roles->eliminar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app\\public\\index.php')
