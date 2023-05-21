@@ -6,7 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('home'); //editado
+        return view('login'); //editado
     }
     public function inicio2()
     {
